@@ -15,17 +15,17 @@
  */
 package com.liu.glory.gpay.ipay.unionpay;
 
-import static com.jpay.unionpay.SDKConstants.CERTTYPE_01;
-import static com.jpay.unionpay.SDKConstants.CERTTYPE_02;
-import static com.jpay.unionpay.SDKConstants.POINT;
-import static com.jpay.unionpay.SDKConstants.SIGNMETHOD_RSA;
-import static com.jpay.unionpay.SDKConstants.SIGNMETHOD_SHA256;
-import static com.jpay.unionpay.SDKConstants.SIGNMETHOD_SM3;
-import static com.jpay.unionpay.SDKConstants.VERSION_5_0_0;
-import static com.jpay.unionpay.SDKConstants.VERSION_1_0_0;
-import static com.jpay.unionpay.SDKConstants.VERSION_5_1_0;
-import static com.jpay.unionpay.SDKConstants.VERSION_5_0_1;
-import static com.jpay.unionpay.SDKConstants.param_signMethod;
+import static com.liu.glory.gpay.ipay.unionpay.SDKConstants.CERTTYPE_01;
+import static com.liu.glory.gpay.ipay.unionpay.SDKConstants.CERTTYPE_02;
+import static com.liu.glory.gpay.ipay.unionpay.SDKConstants.POINT;
+import static com.liu.glory.gpay.ipay.unionpay.SDKConstants.SIGNMETHOD_RSA;
+import static com.liu.glory.gpay.ipay.unionpay.SDKConstants.SIGNMETHOD_SHA256;
+import static com.liu.glory.gpay.ipay.unionpay.SDKConstants.SIGNMETHOD_SM3;
+import static com.liu.glory.gpay.ipay.unionpay.SDKConstants.VERSION_5_0_0;
+import static com.liu.glory.gpay.ipay.unionpay.SDKConstants.VERSION_1_0_0;
+import static com.liu.glory.gpay.ipay.unionpay.SDKConstants.VERSION_5_1_0;
+import static com.liu.glory.gpay.ipay.unionpay.SDKConstants.VERSION_5_0_1;
+import static com.liu.glory.gpay.ipay.unionpay.SDKConstants.param_signMethod;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

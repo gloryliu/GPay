@@ -3,8 +3,8 @@ package com.liu.glory.gpay.ipay.weixin.api.hb;
 
 import java.util.Map;
 
-import com.jpay.util.HttpUtils;
-import com.jpay.ext.kit.PaymentKit;
+import com.liu.glory.gpay.ipay.util.HttpUtils;
+import com.liu.glory.gpay.ipay.ext.kit.PaymentKit;
 
 /**
  * 微信红包

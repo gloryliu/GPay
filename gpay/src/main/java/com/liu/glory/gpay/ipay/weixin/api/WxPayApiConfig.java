@@ -4,9 +4,9 @@ import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.jpay.ext.kit.PaymentKit;
-import com.jpay.ext.kit.StrKit;
-import com.jpay.weixin.api.WxPayApi.TradeType;
+import com.liu.glory.gpay.ipay.ext.kit.PaymentKit;
+import com.liu.glory.gpay.ipay.ext.kit.StrKit;
+import com.liu.glory.gpay.ipay.weixin.api.WxPayApi.TradeType;
 /**
  * @author Javen
  * 2017年5月22日

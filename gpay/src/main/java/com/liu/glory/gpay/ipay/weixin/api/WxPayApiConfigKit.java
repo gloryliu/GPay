@@ -1,9 +1,10 @@
 package com.liu.glory.gpay.ipay.weixin.api;
 
+import com.liu.glory.gpay.ipay.ext.kit.StrKit;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.jpay.ext.kit.StrKit;
 
 /**
  * @author Javen

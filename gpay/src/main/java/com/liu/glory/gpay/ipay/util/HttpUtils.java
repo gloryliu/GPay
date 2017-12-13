@@ -18,7 +18,7 @@ import javax.net.ssl.KeyManager;
 import javax.net.ssl.KeyManagerFactory;
 import javax.net.ssl.SSLContext;
 
-import com.jpay.ext.kit.StrKit;
+import com.liu.glory.gpay.ipay.ext.kit.StrKit;
 
 
 /**

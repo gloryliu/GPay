@@ -10,8 +10,8 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.jpay.ext.kit.DateKit;
-import com.jpay.ext.kit.StrKit;
+import com.liu.glory.gpay.ipay.ext.kit.DateKit;
+import com.liu.glory.gpay.ipay.ext.kit.StrKit;
 
 /**
  * 

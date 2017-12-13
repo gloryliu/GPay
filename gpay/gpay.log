@@ -1,0 +1,7 @@
+2017-12-13 10:09:49.049  INFO 7624 --- [main] com.liu.glory.gpay.GpayApplication       : Starting GpayApplication on liuzhenrong-PC with PID 7624 (F:\Pay\gpay\out\production\classes started by liu.zhenrong in F:\Pay\gpay)
+2017-12-13 10:09:49.057  INFO 7624 --- [main] com.liu.glory.gpay.GpayApplication       : The following profiles are active: dev
+2017-12-13 10:09:49.178  INFO 7624 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7a52f2a2: startup date [Wed Dec 13 10:09:49 CST 2017]; root of context hierarchy
+2017-12-13 10:09:50.814  INFO 7624 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-13 10:09:50.866  INFO 7624 --- [main] com.liu.glory.gpay.GpayApplication       : Started GpayApplication in 2.458 seconds (JVM running for 4.885)
+2017-12-13 10:09:50.867  INFO 7624 --- [Thread-6] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7a52f2a2: startup date [Wed Dec 13 10:09:49 CST 2017]; root of context hierarchy
+2017-12-13 10:09:50.868  INFO 7624 --- [Thread-6] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
