@@ -4,9 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
-@Component
-@PropertySource("classpath:/production/alipay.properties")
-@ConfigurationProperties(prefix = "alipay")
+@ConfigurationProperties(prefix = "alipay",locations = "classpath:/production/alipay.properties")
 public class AliPayBean {
     private String appId;
     private String privateKey;

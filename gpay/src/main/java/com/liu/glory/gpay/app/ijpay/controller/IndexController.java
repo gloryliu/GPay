@@ -36,7 +36,8 @@ public class IndexController {
     @RequestMapping("")
     @ResponseBody
     public String index(){
-    	logger.info("欢迎使用IJPay 开发加群148540125交流 -By Javen");
+    	logger.info("欢迎使用");
+        System.out.println("程序已经启动。。。。。。。。。。");
     	return "欢迎使用IJPay 开发加群148540125交流 -By Javen";
     }
     @RequestMapping("/toOauth")

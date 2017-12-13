@@ -1,5 +1,6 @@
 package com.liu.glory.gpay.app.ijpay.config;
 
+import com.jfinal.template.source.ClassPathSourceFactory;
 import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
 import org.springframework.boot.web.servlet.ErrorPage;
@@ -25,14 +26,15 @@ public class SpringBootConfig {
 			}
 		};
 	}
+
 	@Bean(value = "jfinalViewResolver")
 	public JFinalViewResolver getJFinalViewResolver(){
 		JFinalViewResolver jf = new JFinalViewResolver();
 		jf.setDevMode(true);
 		jf.setCache(false);
-//		jf.setSourceFactory(new ClassPathSourceFactory());
+		jf.setSourceFactory(new ClassPathSourceFactory());
 		jf.setPrefix("/WEB-INF/_views/");
-//		jf.setSuffix(".html");
+		jf.setSuffix(".html");
 		jf.setContentType("text/html;charset=UTF-8");
 		jf.setOrder(0);
 		return jf;
